@@ -1,0 +1,16 @@
+#! /bin/bash
+
+TITLE=$1
+NOW=`date +"%Y-%m-%d"`
+FILE=./_posts/$NOW-$TITLE.md
+
+touch $FILE
+chmod 0777 $FILE
+echo $FILE
+
+echo "---" >> $FILE
+echo "layout: post" >> $FILE
+echo "title: $TITLE" >> $FILE
+echo "date: $NOW" >> $FILE
+echo "---" >> $FILE
+
