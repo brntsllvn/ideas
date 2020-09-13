@@ -1,6 +1,6 @@
 ---
 layout: post
-title: psilocybin for all   
+title: 🍄psilocybin for all
 date: 2020-09-12
 categories: psychedelic
 ---
